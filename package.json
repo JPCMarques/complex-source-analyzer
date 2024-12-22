@@ -1,0 +1,24 @@
+{
+  "name": "complex-source-analyzer",
+  "version": "1.0.0",
+  "description": "Provides complex source code analysis solutions, for cases where the normal provided functionality of IDE analysis does not suffice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPCMarques/complex-source-analyzer.git"
+  },
+  "author": "JPCMarques",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JPCMarques/complex-source-analyzer/issues"
+  },
+  "homepage": "https://github.com/JPCMarques/complex-source-analyzer#readme",
+  "dependencies": {
+    "@babel/parser": "^7.26.3",
+    "@babel/traverse": "^7.26.4"
+  }
+}
